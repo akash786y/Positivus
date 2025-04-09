@@ -4,7 +4,7 @@ import icon from '../assets/Icon.png';
 function Card({ title = "Your Heading", imageSrc, color = "bg-white", textBg }) {
     return (
         <div
-            className={`flex items-start justify-between rounded-[45px] p-10 ${color} border shadow-md border border-black border-b-4`}
+            className={`flex flex-col md:flex-row items-start justify-between rounded-[45px] p-6 md:p-10 ${color} border shadow-md border-black border-b-4 w-full max-w-[550px] h-auto md:h-[300px] mx-auto`}
             style={{ width: "550px", height: "300px" }}
         >
             {/* Left: Text Content */}
