@@ -12,7 +12,7 @@ function Hero() {
 
                 {/* Left: Text Content */}
                 <div className="flex-1 text-center md:text-left">
-                    <h1 className=" text-3xl md:text-5xl text-gray-800 mb-4 font-grotesk max-w-[400px]">
+                    <h1 className="font-bold text-3xl md:text-5xl text-gray-800 mb-4 font-grotesk max-w-[500px]">
                     Navigating the digital landscape for success
                     </h1>
                     <p className="text-lg text-gray-600 mb-6">
